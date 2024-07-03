@@ -1,0 +1,29 @@
+.welcome {
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: rgb(83, 152, 232);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.btn {
+    display: block;
+    width:130px;
+    margin: 0 auto;
+    padding: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 2px solid rgba(10, 46, 97, 0.794);
+    border-radius: 4px;
+    color: #fff;
+    background-color: #6c82d8;
+}
+
+.btn:hover {
+    border: 2px solid transparent;
+    background-color: #3b4776;
+}

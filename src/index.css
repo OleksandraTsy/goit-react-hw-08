@@ -1,8 +1,10 @@
-/* src/index.css */
-
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
+  font-weight: 700;
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  background-color: rgb(243, 247, 251);
 }
 
 h1,
@@ -15,13 +17,43 @@ p {
   margin: 0;
 }
 
-ul,
-ol {
+p:last-child {
+  margin-bottom: 0;
+}
+
+ul {
   margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
   padding: 0;
 }
 
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+a:active,
+input:active,
+textarea:active {
+  outline: none;
+}
+
+a,
+input,
+textarea {
+  outline: none;
 }
